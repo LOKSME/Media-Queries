@@ -1,5 +1,7 @@
 @charset "UTF-8";
 
+@charset "UTF-8";
+
 @import url('https://fonts.googleapis.com/css2?family=New+Rocker&display=swap');
 
 .new-rocker-regular {
@@ -23,6 +25,7 @@
 }
 
 header{
+    display: none;
     background-image:url(img/img01.jpg);
     background-position: center center;
     background-repeat: no-repeat;
@@ -47,13 +50,13 @@ header h1{
 }
 
 nav{
+    display: none;
     background-color:rgba(20, 20, 20, 0.507);
     margin-bottom:12px;
     border-radius: 10px;;
     margin:auto;
     display: flex;
     justify-content: center;
-    position:relative;
 }
 
 nav a{
@@ -65,90 +68,10 @@ nav a{
     padding:5px;
     margin-bottom: 5px;
     margin-right: 15px;
-    position:sticky;
-    top:0;
 }
 
 nav a:hover{
     background-color:#424242de;
     color:white;
     border-radius:10px;
-}
-
-
-
-article{
-    width:600px;
-    margin:auto;
-    border-radius: 10px;
-    background-color:rgb(228, 228, 228);
-    border: 1px solid black;
-    margin-top: 20px;
-}
-
-article h1{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-weight: bolder;
-    text-align: center;
-    margin-bottom: 20px;
-    background-color:var(--colorp);
-    padding: 10px;
-    border-radius: 10px 10px 0px 0px;
-    color:white;
-}
-
-article p{
-    font-family: Arial, Helvetica, sans-serif;
-    text-indent: 12px;;
-    padding:20px;
-    font-size: 1.2em;
-}
-
-article ul{
-    color:#ffffff;
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.664);
-    font-weight: bolder;
-    font-size: 1.2em;
-    font-family: Arial, Helvetica, sans-serif;
-    list-style: none;
-    padding:10px;
-    margin:auto;
-    text-align: center;
-    columns: 2;
-    line-height: 30px;
-}
-
-table{
-    border:1px solid black;
-    font-family: Arial, Helvetica, sans-serif;
-    margin:auto;
-    border-collapse:collapse;
-}
-
-Caption{
-    margin-top: 20px;
-    margin-bottom: 5px;
-    padding:5px;
-    background-color: #757575;
-    border-radius: 10px 10px 0px 0px;
-    font-weight: bolder;
-    color:white;
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.664);
-    font-size:1.3em;
-}
-
-td, th{
-    padding:10px;
-}
-
-th{
-    border:1px solid black;
-}
-
-td{
-    border: 1px solid black;
-}
-
-td:nth-child(2n){
-    background-color: #bbbbbb;
 }
